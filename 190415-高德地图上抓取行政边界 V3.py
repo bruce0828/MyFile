@@ -163,7 +163,7 @@ if __name__ == '__main__':
     amapcode = pd.read_excel('./AMap_adcode_citycode.xlsx', encoding='utf-8',dtype={'adcode':str,'citycode':str})
     
     # 爬取行政边界
-    keys = ['e2541735e660146a598c85264e9b3ac8','2e5993fc9ae527795f26576489f6db38','a16f1a9bc0999c46b788fe909d2b7901']
+    keys = 
     i = 0
     for adcode in amapcode.adcode.values:   
         if i / 1500 <= 1: key = keys[0]
